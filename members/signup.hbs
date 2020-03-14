@@ -13,19 +13,18 @@
         {{!-- Logged in, not paying: Check out --}}
         <div class="gh-checkout-form">
             <h1 class="gh-checkout-title">Choose your subscription</h1>
-            <p>Unlock full access to {{@site.title}} and see the entire library of members-only content & updates</p>
+            <p>Unlock Branch+</p>
             <div class="gh-checkout-box">
                 <div class="gh-checkout-plan">
                     <header class="gh-checkout-plan-header">
-                        <h3>Monthly</h3>
+                        <h3>Monthy</h3>
                         <span>$</span><strong>{{@price.monthly}}</strong> / month
                     </header>
                     <div class="gh-checkout-plan-content">
                         <ul>
-                            <li>Full access to all private posts</li>
-                            <li>Regular updates with new content</li>
-                            <li>Support independent publishing</li>
-                            <li>Simple, secure card payment</li>
+                            <li>Full access to all Branch+ content</li>
+                            <li>Secure card payment</li>
+                            <li>Support Branch</li>
                         </ul>
                         <a class="gh-button gh-button-primary fit" href="javascript:" data-members-plan="Monthly">
                              <span class="gh-button-content">Choose this plan</span>
@@ -40,10 +39,9 @@
                     </header>
                     <div class="gh-checkout-plan-content">
                         <ul>
-                            <li>Full access to all private posts</li>
-                            <li>Regular updates with new content</li>
-                            <li>Support independent publishing</li>
-                            <li>Simple, secure card payment</li>
+                            <li>Full access to all Branch+ content</li>
+                            <li>Secure card payment</li>
+                            <li>Support Branch</li>
                             <li>One easy payment instead of 12!</li>
                         </ul>
                         <a class="gh-button gh-button-primary fit" href="javascript:" data-members-plan="Yearly">
@@ -59,7 +57,7 @@
 
         {{!-- Not logged in: Sign up --}}
         <form class="gh-auth-form" data-members-form="signup">
-            <h1 class="gh-auth-title">Signup to {{@site.title}}</h1>
+            <h1 class="gh-auth-title">Become a Branch member</h1>
             <p>{{@site.description}}</p>
             <div class="gh-auth-box">
                 <input class="gh-input" data-members-email type="email" placeholder="Type your email..." required="true" autocomplete="false" />
@@ -69,7 +67,7 @@
                 </button>
             </div>
             <p><small>Already have an account? <a href="/signin/">Sign in</a></small></p>
-            <div class="message-success"><strong>Great!</strong> Check your inbox and click the link to confirm your subscription</div>
+            <div class="message-success"><strong>Great!</strong> Check your inbox and click the link to confirm your membership</div>
             <div class="message-error">Please enter a valid email address!</div>
         </form>
 
