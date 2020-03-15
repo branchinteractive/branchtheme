@@ -70,9 +70,11 @@
 }
 
 .gh-button.gh-button-primary:hover {
+    color: #fff !important;
     background-color: color(var(--color-primary) l(-10%));
 }
 
 .gh-button.gh-button-success:hover {
+    color: #fff !important;
     background-color: color(var(--color-success) l(-10%));
 }
