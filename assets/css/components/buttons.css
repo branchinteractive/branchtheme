@@ -63,6 +63,16 @@
     box-shadow: none;
 }
 
+.gh-button.gh-button-success {
+    color: #fff !important;
+    background-color: var(--color-success);
+    box-shadow: none;
+}
+
 .gh-button.gh-button-primary:hover {
     background-color: color(var(--color-primary) l(-10%));
+}
+
+.gh-button.gh-button-success:hover {
+    background-color: color(var(--color-success) l(-10%));
 }
